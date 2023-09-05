@@ -45,7 +45,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             //title: '',
-            image: 'images/olympia-back-yard.jpg',
+            image: 'images/olympia-back-yard2.jpg',
             description: 'In a backyard on Olympia Street in the 1940s, Grandparents Ignatz and Theresa stand big-eared and sad, respectively. Cousin Carol was the fun one, with her clarinet and games. And brother Gerry was an early champion of gender noncomformity until your great grandpa told him that only sissies wear short shorts.<br><br>"The houses were so close," Aunt Ann remembered about that block, "you could see what people were cooking for dinner."',
             location: {
                 center:[-83.01988281756495, 42.39674505093596],
