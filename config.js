@@ -203,7 +203,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             image: 'images/sue-horse.jpg',
-            description: 'And then a hard-working daughter who saved her money and bought herself a horse.',
+            description: 'And they tried to temper their hard-working daughter\'s dreams by warning her that buying a horse would cost a thousand dollars. She saved her money and bought a horse anyway.',
             location: {
                 center: [-70.79544473295257, 41.656692358550984],
                 zoom: 12,
