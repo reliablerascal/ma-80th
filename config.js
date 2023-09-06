@@ -175,7 +175,8 @@ var config = {
             alignment: 'left',
             hidden: false,
             image: 'images/brian-teen.jpg',
-            description: 'It was there that she raised a worry-free son&mdash; worry-free from the point of view of the son.<p>She fretted as with a meticulously layered lasagna which would ultimately layer itself.'
+            description: 'It was there that she raised a worry-free son&mdash; worry-free from the point of view of the son.<p>As all parents learn, the most meticulously layered lasagnas end up more like spaghetti.',
+            location: {
                 center: [-70.79544473295257, 41.656692358550984],
                 zoom: 12,
                 pitch: 0.00,
