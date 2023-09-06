@@ -150,7 +150,7 @@ var config = {
             image: 'images/mattapoisett-hobba.jpg',
             description: 'She tamed the mad scientist, like a horse, and together they moved to a small town by the sea. Walt became a Robot Designer and she ran the household.',
             location: {
-                center: [-70.79544473295257, 41.656692358550984],
+                center: [-70.81632817795511, 41.66218688478812],
                 zoom: 12,
                 pitch: 0.00,
                 bearing: 0.00,
@@ -166,8 +166,7 @@ var config = {
                 // {layer: 'mapbox-satellite', opacity:0}
             ],
             onChapterExit: []
-        },
-
+        }, 
         
         
         {
@@ -177,7 +176,7 @@ var config = {
             image: 'images/brian-teen.jpg',
             description: 'It was there that she raised a worry-free son&mdash; worry-free from the point of view of the laid-back and free-spirited son.<p>As all fretting parents learn, the most meticulously-layered lasagnas always turn to spaghetti: they keep all the ingredients, but not the form.',
             location: {
-                center: [-70.79544473295257, 41.656692358550984],
+                center: [-70.81632817795511, 41.66218688478812],
                 zoom: 12,
                 pitch: 0.00,
                 bearing: 0.00
@@ -205,7 +204,7 @@ var config = {
             image: 'images/sue-horse.jpg',
             description: 'And they tried to temper their hard-working daughter\'s dreams by warning her that buying a horse would cost a thousand dollars. She saved her money and bought a horse anyway.',
             location: {
-                center: [-70.79544473295257, 41.656692358550984],
+                center: [-70.81632817795511, 41.66218688478812],
                 zoom: 12,
                 pitch: 0.00,
                 bearing: 0.00
@@ -233,7 +232,7 @@ var config = {
             image: 'images/rob-saxophone.jpg',
             description: 'And then a third child who was weird, like third children tend to be.',
             location: {
-                center: [-70.79544473295257, 41.656692358550984],
+                center: [-70.81632817795511, 41.66218688478812],
                 zoom: 12,
                 pitch: 0.00,
                 bearing: 0.00
