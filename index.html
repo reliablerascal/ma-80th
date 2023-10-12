@@ -1,3 +1,4 @@
+<!--- 9/7/23 RR keep this "sticky" version, just need to get the mobile box width to work correctly-->
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,12 +8,12 @@
     <!--- Facebook thumbnail photo-->
     <meta property="og:title" content="80 Years of Fortitude">
     <meta property="og:description" content="A celebration of Ma Reid's 80th birthday">
-    <meta property="og:image" content="https://reliablerascal.github.io/ma-80th/images/college-ma.jpg">
-    <meta property="og:url" content="https://reliablerascal.github.io/ma-80th/">
+    <meta property="og:image" content="https://reliablerascal.github.io/stories/ma-80th/images/college-ma.jpg">
+    <meta property="og:url" content="https://reliablerascal.github.io/stories/ma-80th/">
 
 
     <!---hpmoon style is completely ignored-->
-    <link rel="stylesheet" href="../style/gitrascal.css"> 
+    <link rel="stylesheet" href="../../style/gitrascal.css"> 
     
     <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
     <link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/mapbox/assembly/publisher-staging/src/svgs/mapbox.svg">
@@ -250,43 +251,6 @@ var story = document.getElementById('story');
 var features = document.createElement('div');
 features.setAttribute('id', 'features');
 
-var header = document.createElement('div');
-
-if (config.title) {
-    var titleText = document.createElement('h1');
-    titleText.innerText = config.title;
-    header.appendChild(titleText);
-}
-
-if (config.subtitle) {
-    var subtitleText = document.createElement('h2');
-    subtitleText.innerText = config.subtitle;
-    header.appendChild(subtitleText);
-}
-
-if (config.byline) {
-    var bylineText = document.createElement('p');
-    bylineText.innerText = config.byline;
-    header.appendChild(bylineText);
-}
-
-if (config.leadPhoto) {
-    var image = new Image();
-        image.src = config.leadPhoto;
-        header.appendChild(image);
-}
-
-// if (config.leadParagraph) {
-//     var leadText = document.createElement('p');
-//     leadText.innerText = config.leadParagraph;
-//     header.appendChild(leadText);
-// }
-
-if (header.innerText.length > 0) {
-    header.classList.add(config.theme);
-    header.setAttribute('id', 'header');
-    story.appendChild(header);
-}
 
 config.chapters.forEach((record, idx) => {
     var container = document.createElement('div');
