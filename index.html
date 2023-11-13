@@ -13,7 +13,8 @@
 
 
     <!---hpmoon style is completely ignored-->
-    <link rel="stylesheet" href="../../style/gitrascal.css"> 
+    <!-- <link rel="stylesheet" href="../../style/gitrascal.css"> -->
+    <link rel="stylesheet" href="../style/gitrascal_simple.css"> 
     
     <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
     <link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/mapbox/assembly/publisher-staging/src/svgs/mapbox.svg">
@@ -29,7 +30,7 @@
             font-family: sans-serif;
         }
         a, a:hover, a:visited {
-            color:#E3AE50;
+            color:green;
         }
         #map {
             top:0;
@@ -196,51 +197,6 @@ function setLayerOpacity(layer) {
         map.setPaintProperty(layer.layer, prop, layer.opacity, options);
     });
 }
-
-
-/////////////////////////////////////////////
-//                                         //
-//         Helper functions for D3         //
-//                                         //
-/////////////////////////////////////////////
-//D3 STEP 2
-
-// Projection method:
-// Project geojson coordinate to the map's current state
-// this is needed to re-render GeoJSON as x/y coordinates recognized by D3
-// function project(d) {
-// return map.project(new mapboxgl.LngLat(d[0], d[1]));
-// }
-
-// // Render method redraws dots
-// function render() {
-// d3.selectAll(".circle")
-// .attr("cx", function(d) {
-// return project(d.geometry.coordinates).x;
-// })
-// .attr("cy", function(d) {
-// return project(d.geometry.coordinates).y;
-// })
-// //Adding ID in d3 NOT WORKING
-// .attr("id", function(d) {
-// return d.properties.id;
-// });
-// }
-
-// //D3 testing function based on Aaron's example
-// function hideDots() {
-//     console.log("hide dots function");
-//     d3.selectAll(".circle").classed('hidden',true);
-// }
-// function showDots() {
-//     console.log("show dots function");
-//     d3.selectAll(".circle").classed('hidden', false);
-// }
-// function greenDots() {
-//     console.log("green dots function");
-//     d3.selectAll(".circle").style("fill","green");
-// }
-
 
 /////////////////////////////////////////////
 //                                         //
